@@ -10,8 +10,8 @@ function! ensime_vim_type_check#my_handler(ctx, payload) abort
     return s:call_plugin('my_handler', [a:ctx, a:payload])
 endfunction
 
-function! ensime_vim_type_check#my_check() abort
-    return s:call_plugin('my_check', [])
+function! ensime_vim_type_check#my_check(args, range) abort
+    return s:call_plugin('my_check', [a:args, a:range])
 endfunction
 
 function! s:call_plugin(method_name, args) abort
