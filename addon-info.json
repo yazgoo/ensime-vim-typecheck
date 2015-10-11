@@ -1,0 +1,15 @@
+{
+  "name" : "ensime-vim-typecheck",
+  "version" : "0.1",
+  "author" : "Olivier 'yazgoo' Abdesselam",
+  "maintainer" : "Olivier 'yazgoo' Abdesselam",
+  "repository" : {"type": "git", "url":
+      "git://github.com/yazgoo/ensime-vim-typecheck", "branch" : "master"},
+  "dependencies" : {
+    "self": {},
+    "forms": {},
+    "vimproc": {},
+    "vimshell": {}
+  },
+  "description" : "ensime typecheck for vim"
+}
